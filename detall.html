@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Secció detall</title>
+</head>
+<body>
+
+    <div class="header-detall">
+        <div id = "close"><h1>&larr;</h1></div>
+        <div id="titol-seccio-detall">
+            <h1 id="ts"></h1>
+            <h2 id="habitat">Tipus d'hàbitat: </h2>
+        </div>
+
+    </div>
+
+    <section class="seccio-detall">
+
+        
+
+        <div id="seccio-1">
+
+            <div id = "imatges">
+                <img id = "img-detall" src="" alt="">
+            </div>
+    
+            <p id = "descripcio"></p>
+
+        </div>
+        
+                
+        <div id = centrarVideo>
+
+            <h2 id="selecOcell">Selecciona un ocell per veure la seva descripció:</h2>
+
+            <div id="buttons">
+                <button id="btn1" class="btn"></button>
+                <button id="btn2" class="btn"></button>
+                <button id="btn3" class="btn"></button>
+            </div>
+
+            <h2 id="ocellSelected"></h2>
+
+            <div id="spacer"></div>
+
+            <video id = "video" src=""></video>
+
+            <button id="playGran">&#9658;</button>
+
+            <div id="main">
+
+                <div id="player">
+
+                    
+                    <button id="play">&#9658;</button>
+                    <button id="stop">&#9724;</button>
+                    <span id="timer">
+                        <p id="curtimetext"></p>
+                        <p>&nbsp;/&nbsp;</p>
+                        <p id="durtimetext"></p>
+                    </span>
+                    <progress id="seek-bar" value="0" max="100"></progress>
+                    <button id="volume"></button>
+                    <button id="moreVol">+</button>
+                    <button id="lessVol">-</button>
+
+                </div>
+
+            </div>
+
+            <div id="spacer2"></div>
+
+        </div>
+
+        <h2 id="info-o">Fitxa tècnica</h2>
+
+        <div class="ocell">
+
+            <div id="taula-ocell">
+
+                
+
+                <div id="f1" class="fila">
+
+                    <div id="f1c1" class="col"><h2>Nom comú: </h2></div>
+                    <div id="f1c2" class="col"><p id="nom-ocell"></p></div>
+
+                </div>
+
+                <div id="f2" class="fila">
+
+                    <div id="f2c1" class="col"><h2>Nom científic: </h2></div>
+                    <div id="f2c2" class="col"><p id="nom-c-ocell"></p></div>
+
+                </div>
+
+                <div id="f3" class="fila">
+
+                    <div id="f3c1" class="col"><h2>Tipus de residència: </h2></div>
+                    <div id="f3c2" class="col"><p id="residencia"></p></div>
+
+                </div>
+
+                <div id="f4" class="fila">
+
+                    <div id="f4c1" class="col"><h2>Abundància: </h2></div>
+                    <div id="f4c2" class="col"><p id="abundancia"></p></div>
+
+                </div>
+
+            </div>
+
+            <div id="img-ocell">
+                <img src="" alt="" id="img-o">
+            </div>
+
+        </div>
+
+        <h2 id="escolta">Escolta el cant d'aquest ocell</h2>
+
+        <div id = centrarAudio>
+
+            <div id="main-audio">
+
+                <div id="player-audio">
+
+                    
+                    <button id="play-audio">&#9658;</button>
+                    <button id="stop-audio">&#9724;</button>
+                    <span id="timer-audio">
+                        <p id="curtimetext-audio"></p>
+                        <p>&nbsp;/&nbsp;</p>
+                        <p id="durtimetext-audio"></p>
+                    </span>
+                    <progress id="seek-bar-audio" value="0" max="100"></progress>
+                    <button id="volume-audio"></button>
+                    <button id="moreVol-audio">+</button>
+                    <button id="lessVol-audio">-</button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        
+
+    </section>
+    <div id="spacer3"></div>
+
+    <script src = "dades.js"></script>
+    <script src = "funcions2.js"></script>
+
+</body>
+</html>

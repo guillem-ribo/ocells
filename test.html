@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Test d'ocells</title>
+</head>
+<body>
+
+    <div class="header-test">
+        <div id = "close" class = "close-t"><h1>&larr;</h1></div>
+        <h1 class = "titol-seccio-test" >Test dels ocells</h1>
+    </div>
+
+    <section class="seccio-test">
+
+        <p id = "enunciat">Escolta l'àudio següent i digues de quin ocell es tracta</p>
+
+        <div id = centrarAudioTest>
+
+            <div id="main-audio">
+
+                <div id="player-audio">
+
+                    <button id="play-audio">&#9658;</button>
+                    <button id="stop-audio">&#9724;</button>
+                    <span id="timer-audio">
+                        <p id="curtimetext-audio"></p>
+                        <p>&nbsp;/&nbsp;</p>
+                        <p id="durtimetext-audio"></p>
+                    </span>
+                    <progress id="seek-bar-audio" value="0" max="100"></progress>
+                    <button id="volume-audio"></button>
+                    <button id="moreVol-audio">+</button>
+                    <button id="lessVol-audio">-</button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div id="targetaFinal">
+            <h1 id="textFinal"></h1>
+            <button id="closeTargeta"></button>
+            <h2 id="falla"></h2>
+        </div>
+
+        <div id="ocells-test">
+
+            <div id="ocell1" class="targeta">
+                <p class="pImg"><img src="" alt="" id="img-o1-t" class="img-t"></p>
+                <h2 id="p-o1-t" class="text-test"></h2>
+            </div>
+
+            <div id="ocell2" class="targeta">
+                <p class="pImg"><img src="" alt="" id="img-o2-t" class="img-t"></p>
+                <h2 id="p-o2-t" class="text-test"></h2>
+            </div>
+
+            <div id="ocell3" class="targeta">
+                <p class="pImg"><img src="" alt="" id="img-o3-t" class="img-t"></p>
+                <h2 id="p-o3-t" class="text-test"></h2>
+            </div>
+
+        </div>
+
+    </section>
+
+    <script src = "dades.js"></script>
+    <script src = "funcions3.js"></script>
+
+</body>
+</html>
