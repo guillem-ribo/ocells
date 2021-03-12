@@ -27,6 +27,10 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+#testText {
+    transform: translate(0px, -20px);
+}
+
 #test {
     width: 150px;
     height: 90px;
@@ -43,9 +47,12 @@
     transition: 0.2s;
 }
 
-#testText {
-    transform: translate(0px, -20px);
+#test:hover {
+    background-color: #40ff76d3;
+    transform: scale(1.05);
 }
+
+
 
 #reset {
     width: 150px;
@@ -65,13 +72,6 @@
 
 #reset:hover {
     background-color: #40ff76d3;
-    background-color: #40ff769c;
-    transform: scale(1.05);
-}
-
-#test:hover {
-    background-color: #40ff76d3;
-    background-color: #40ff769c;
     transform: scale(1.05);
 }
 
